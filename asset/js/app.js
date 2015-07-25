@@ -1,7 +1,7 @@
-var app = angular.module('expenseApp',[])
+var app = angular.module('app',[])
  
-app.controller('HomeViewController',['$scope',function($scope){
-	$scope.appTitle = 'Simple Expenses Tracker';
+app.controller('titulo',['$scope',function($scope){
+	$scope.appTitulo = 'Carrito de compras';
 }]);
 
 app.controller('ExpensesViewController',['$scope',function($scope){
